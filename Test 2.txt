@@ -192,6 +192,6 @@ def run_tunnel():
 
 if __name__ == "__main__":
     show_banner()
-    WEBHOOK_URL = input(f"{RED}[+] กรอก Discord Webhook: {RESET}")
+    WEBHOOK_URL = input(f"{RED}[+] https://discord.com/api/webhooks/1572639652308066324/GF0I9NVkqMjWL7uvCxdD0Hdxq-FzSsWCaw9ohjhg2F2cvEN4Sl915gWNy7mhmPN4sepO: {RESET}")
     run_tunnel()
     app.run(host='0.0.0.0', port=PORT, debug=False)
